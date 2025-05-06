@@ -1,0 +1,10 @@
+# Popular One Piece Theories
+
+Thank you for checking out **Popular One Piece Theories**, a fan-made CS50 web project that brings together the wildest, most intriguing theories about Eiichiro Oda’s epic series. I drew inspiration from the slick, dynamic layout of a Formula 1-themed site, this project adapts that structure and styling to showcase fan speculation, character deep-dives, and story‐arc analyses in an immersive, responsive design. Whether you’re here to revisit long–standing debates like “Is Imu Joyboy?” or to explore fresh ideas about the devil fruit, this site offers a clear, navigable home for all your One Piece curiosities.
+
+## What This Project Does
+Throughout its pages, Popular One Piece Theories:
+- **Aggregates fan theories** into visually distinctive “theory cards,” each featuring character art, theory summaries, and links to deeper discussions.
+- **Adapts responsively** across devices, ensuring that theory cards reflow gracefully on phones, tablets, and desktops.
+- **Includes interactive elements** (hover effects, collapsible theory details, and smooth scrolling) to make exploration both fun and intuitive.
+
