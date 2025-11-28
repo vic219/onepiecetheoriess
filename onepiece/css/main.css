@@ -2,13 +2,13 @@
    General Styles
    ======================= */
 
-   body {
+body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;           /* white background */
-    color: #111;                         /* dark text */
+    background-color: #ffffff;
+    color: #111;
 }
 
 /* =======================
@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;          /* light gray */
+    background-color: #f2f2f2;
     padding: 20px;
     color: #111;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -52,7 +52,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: #333;                         /* dark nav text */
+    color: #333;
     display: flex;
     align-items: center;
 }
@@ -68,6 +68,28 @@ nav ul li a:hover {
 }
 
 /* =======================
+   BUTTON-LINKS (.nav-btn)
+   ======================= */
+
+.nav-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;     /* Important for <a> */
+}
+
+.nav-btn:hover {
+    background-color: #ffaa00;
+}
+
+/* =======================
    MAIN CONTENT
    ======================= */
 
@@ -80,8 +102,8 @@ main {
 }
 
 .moreboxes {
-    flex: 1 1 calc(25% - 20px);               /* 4 per row */
-    background-color: #f9f9f9;               /* light background */
+    flex: 1 1 calc(25% - 20px);
+    background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 15px;
@@ -107,7 +129,7 @@ main {
 
 .moreboxes p {
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.45;
     margin: 0 0 15px 0;
     text-align: justify;
 }
@@ -126,19 +148,23 @@ footer {
 }
 
 /* =======================
-   Navigation Buttons
+   RESPONSIVE DESIGN
    ======================= */
-   .nav-btn {
-    background-color: #ffcc00;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+
+@media (max-width: 1024px) {
+    .moreboxes {
+        flex: 1 1 calc(33.33% - 20px);     /* 3 per row */
+    }
 }
 
-.nav-btn:hover {
-    background-color: #ffaa00;
+@media (max-width: 768px) {
+    .moreboxes {
+        flex: 1 1 calc(50% - 20px);         /* 2 per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .moreboxes {
+        flex: 1 1 100%;                     /* 1 per row */
+    }
 }
