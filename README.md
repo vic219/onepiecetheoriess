@@ -38,14 +38,10 @@ No server or installation is required.
 Live version available at:
 https://vic219.github.io/onepiecetheoriess/onepiece/index.html
 
-# Folder Structure
-
 onepiece/
-│
-├── index.html                (Home page)
-│
-├── characters/               (Straw Hat crew pages)
-│   ├── index.html
+├── index.html                # Landing page
+├── characters/
+│   ├── index.html            # All Straw Hat members
 │   ├── luffy.html
 │   ├── zoro.html
 │   ├── nami.html
@@ -56,14 +52,11 @@ onepiece/
 │   ├── franky.html
 │   ├── brook.html
 │   ├── jinbe.html
-│
-├── theories/                 (General fan theories)
-│   └── index.html
-│
+├── theories/
+│   └── index.html            # Main theory page
 ├── css/
-│   └── main.css             (Main stylesheet)
-│
-├── images/                  (All image assets)
+│   └── main.css              # Styling, layout, responsive rules
+├── images/
 │   ├── onepiece.jpg
 │   ├── luffy.jpg
 │   ├── zoro.jpg
@@ -75,10 +68,7 @@ onepiece/
 │   ├── franky.jpg
 │   ├── brook.jpg
 │   ├── jinbe.jpg
-│
-└── README.txt               (This file)
-
-
+└── README.md
 ---
 
 Technologies Used
